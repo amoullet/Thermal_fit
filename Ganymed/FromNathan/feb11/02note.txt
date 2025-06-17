@@ -1,0 +1,16 @@
+I came up with a python wrapper to automate NOEMA uv-plane fitting and output of the fit parameters, so now we have our NOEMA lightcurves for Ganymed. We have about 1.5 hours of coverage at 75 GHz and 90 GHz on Sept 19, and about 20 minutes of coverage at 130 GHz and 145 GHz on Sept. 18.
+
+ 
+
+Fluxes and errors are in Jy, and the midpoint time for each set of scans is in UT. The asteroid was completely unresolved with the NOEMA beam, so I used point source fits.
+
+ 
+
+Ka and Ku band fits are coming along slowly…hopefully I have them by the end of the week.
+
+ 
+
+Let me know if you have any questions.
+
+-Nathan
+

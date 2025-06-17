@@ -1,0 +1,7 @@
+Some more data for you. I’ve attached X band point source fits for both dates, Ka band gaussian fits for both dates, Ku gaussian fits for Oct 23, and an archival list of point source fits for Ku band on Oct 24 (ideally I’d like to fit gaussians). This is where things stand now. For the Ku and Ka band, I included parameters from both image-plane and uv-plane fits.
+
+ 
+
+Also attached are some figures showing the overall evolution of the images for the asteroid at Ka, where we did resolve the asteroid. For better or worse we got on the asteroid pretty early so our beam starts out considerably larger and asymmetric than it is later on – so we sample wider sections of the asteroid surface. I’ve enforced a uniform color scale.
+
+ 

@@ -1,0 +1,20 @@
+XD
+
+Attached is the Ganymed Fits files with extensions for the parameter values.
+Local time starts at 0.5 H and not 0H. The IDL code to read everything is:
+
+temp1=readfits('Ganymed_krc_temps.fits'); 
+  time1=readfits('Ganymed_krc_temps.fits',ext=1)
+  lati1=readfits('Ganymed_krc_temps.fits',ext=2)
+  thin1=readfits('Ganymed_krc_temps.fits',ext=3)
+  emis1=readfits('Ganymed_krc_temps.fits',ext=4)
+  dpth1=readfits('Ganymed_krc_temps.fits',ext=5)
+ 
+TEMP1           FLOAT     = Array[48, 19, 7, 3, 100]; Temperature in K
+TIME1           FLOAT     = Array[48]; 48 local times starting at 0.5H
+LATI1           FLOAT     = Array[1, 19]; 19 Latitudes from -90 to +90
+THIN1           FLOAT     = Array[1, 1, 7]; 7 Thermal Inertia values: 10, 20, 40,..., 640
+EMIS1           FLOAT     = Array[1, 1, 1, 3]; 0.9, 0.7, 0.5
+DPTH1           DOUBLE    = Array[1, 1, 7, 1, 100]; Depths in meters - each thermal value has a different depth scale.
+
+Tim
